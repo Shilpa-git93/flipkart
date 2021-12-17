@@ -18,6 +18,8 @@ public class ActiInvalid implements IAutoConsts
 	
 	public static void main(String[] args) throws Throwable
 	{
+		System.out.println("hi");
+		
 		FileLibrary flib=new FileLibrary();
 		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
