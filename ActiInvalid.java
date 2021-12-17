@@ -17,8 +17,11 @@ public class ActiInvalid implements IAutoConsts
 {
 	
 	public static void main(String[] args) throws Throwable
-	{
-		//hi 
+
+		System.out.println("hi");
+		
+		FileLibrary flib=new FileLibra
+		
 		
 		FileLibrary flib=
 		new FileLibrary();
