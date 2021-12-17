@@ -17,10 +17,14 @@ public class ActiInvalid implements IAutoConsts
 {
 	
 	public static void main(String[] args) throws Throwable
-	{
+
 		System.out.println("hi");
 		
-		FileLibrary flib=new FileLibrary();
+		FileLibrary flib=new FileLibra
+		
+		
+		FileLibrary flib=
+		new FileLibrary();
 		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://desktop-6ofrcdd/login.do");
